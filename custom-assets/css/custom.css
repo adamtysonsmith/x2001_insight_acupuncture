@@ -1,0 +1,50 @@
+body {
+    color: #525252;
+}
+
+#grid {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+}
+
+/*Sidebar Template Nav*/
+.nav-left-sidebar {
+    margin-top: 20px;
+    padding-left: 0;
+}
+.nav-left-sidebar li {
+    list-style: none;
+}
+.nav-left-sidebar li a {
+    color: #39ab6f;
+}
+.nav-left-sidebar li a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #39a7ab;
+}
+
+.content-left-sidebar hr {
+    border-top: 1px solid #525252;
+}
+
+/*Remove Glitchy Overlay*/
+.vegas-overlay {
+    display: none;
+}
+
+/*Style the Contact Area in Sidebar Template*/
+.text-left {
+    text-align: left;
+    padding-bottom: 0;
+}
+.full-hr hr {
+    width: 100%;
+}
+#contact .contact-wrapper.contact-left-sidebar {
+    padding: 0;
+}
+.btn-custom-two:hover {
+    border-top: 2px solid #39a7ab;
+    color: #525252;
+}
