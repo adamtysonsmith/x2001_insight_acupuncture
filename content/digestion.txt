@@ -1,0 +1,5 @@
+<h1>Content Title</h1>
+<hr>
+
+<p>This is a static paragraph</p>
+<p>Hey There from the digestion file</p>
