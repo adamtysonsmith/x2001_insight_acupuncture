@@ -1,8 +1,10 @@
 body {
     color: #525252;
 }
-
-#grid {
+#grid h2 {
+    font-family: Oswald, sans-serif; 
+}
+#grid-left-sidebar {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
 }
@@ -46,5 +48,21 @@ body {
 }
 .btn-custom-two:hover {
     border-top: 2px solid #39a7ab;
+    border-right: 2px solid #39a7ab;
     color: #525252;
+}
+
+
+.about-copy p {
+    font-family: Ubuntu, sans-serif;
+    text-transform: initial;
+    text-align: left;
+}
+.about-copy .btn {
+    float: left; 
+}
+
+.panel-body {
+    font-family: Ubuntu, sans-serif;
+    text-transform: initial;
 }
