@@ -1,12 +1,49 @@
 body {
     color: #525252;
 }
+.vegas-background {
+    opacity: 0.4;
+}
+.vegas-overlay {
+    background-color: #f8c988;
+    background-image: none !important;
+    opacity: 0.8;
+}
 #grid h2 {
     font-family: Oswald, sans-serif; 
 }
 #grid-left-sidebar {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
+}
+
+.slogan-bg {
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: right;
+    color: #E6C38C;
+    padding: 3px 0px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    box-shadow: 0px 0px 0px #fff;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+ }
+.dropdown-menu > li > a {
+    color: #fff;
+}
+.dropdown-menu > li > a:hover {
+    color: #346a4d;
+    background-color: transparent;
+}
+
+#carousel-slider p {
+    font-size: 22px;
 }
 
 /*Sidebar Template Nav*/
@@ -31,9 +68,11 @@ body {
 }
 
 /*Remove Glitchy Overlay*/
+/*
 .vegas-overlay {
     display: none;
 }
+*/
 
 /*Style the Contact Area in Sidebar Template*/
 .text-left {
@@ -65,4 +104,8 @@ body {
 .panel-body {
     font-family: Ubuntu, sans-serif;
     text-transform: initial;
+}
+
+.about-toggle {
+    display: none;
 }
